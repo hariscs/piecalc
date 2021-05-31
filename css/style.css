@@ -1,0 +1,57 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: #2d2e36;
+	margin: 0;
+	font-family: 'Poppins', sans-serif;
+	color: whitesmoke;
+	display: grid;
+	place-items: center;
+	height: 100vh;
+}
+
+.container {
+	max-width: 500px;
+	margin: auto;
+	padding: 1.5em;
+	background: #1e1f25;
+	border-radius: 8px;
+}
+
+h1 {
+	text-align: center;
+}
+
+label,
+input {
+	display: block;
+	width: 100%;
+	outline: none;
+}
+
+label {
+	font-size: 1.3rem;
+}
+
+input {
+	padding: 0.5em;
+	font-family: inherit;
+	font-size: 1.2rem;
+	color: #7b7d86;
+	background: whitesmoke;
+	border: 1px solid #7b7d86;
+	border-radius: 8px;
+}
+
+.form-field + .form-field {
+	margin-top: 1.5em;
+}
+
+.result {
+	display: block;
+	text-align: right;
+	font-size: 2.5rem;
+	margin-top: 0.5em;
+}
